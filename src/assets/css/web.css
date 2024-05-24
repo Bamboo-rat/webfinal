@@ -1,0 +1,232 @@
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: Montserrat-Regular;
+    src: url("../font/static/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("../font/static/Montserrat-Light.ttf");
+} */
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+/* banner */
+#banner {
+    background: linear-gradient(rgba(0,0,0,0.5), #009688), url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.logo {
+    width: 180px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+
+.banner-text h1 {
+    font-size: 130px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+}
+
+.banner-btn a {
+    width: 150px;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border: .5px solid #fff;
+    transition: color 0,5s;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-btn a:hover {
+    color: #000;
+}
+
+.banner-btn a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.banner-btn a:hover span {
+    width: 100%;
+}
+/* end banner */
+/* sideNav */
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background:#009688;
+    z-index: 2;
+    transition: right 0.5s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px 50px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menuBtn {
+    width: 50px;
+    height: 50px;
+    background-color: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    z-index: 3;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#menuBtn img {
+    width: 20px;
+    margin-top: 15px;
+}
+/* end sideNav */
+
+
+
+
+/*logo-d*/
+.logo-d{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.anhlogo{
+    width: 240px;
+    height: 110px;
+}
+.chu-d{
+    margin-top: 30px;
+    font-family: Montserrat-Light;
+}
+.tong{
+    margin-left: 0px;
+}
+
+/*end logo-d*/
+
+/*tho*/
+
+#tho{
+    margin-bottom: 130px;
+}
+.bangdv{
+    transition: transform .9s;
+    box-shadow: 0 10px 10px 3px #79CDCD;
+    margin-left: 35px;
+}
+.bangdv:hover{
+    transform: translateY(-13px);
+}
+.bangdv2{
+
+    transition: transform .9s;
+    box-shadow: 0 10px 10px 3px #79CDCD;
+    margin-left: 0px;
+}
+.bangdv2:hover{
+    transform: translateY(-13px);
+}
+.icon img{
+    width: 80px;
+    margin-top: 20px;
+}
+.icon1 img{
+    width: 65px;
+    margin-top: 20px;
+}
+.dvchu-1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #FF9900;
+}
+.dvchu p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bangtong{
+    text-align: center;
+    display: flex;
+}
+/*end tho*/
+
+/* duoi */
+.anh-duoi img{
+    width: 100%;
+}
+.duoi-chu{
+    text-align: left;
+}
+.duoi-chu h1{
+    font-family: Montserrat-Light;
+    font-size: 40px;
+    font-weight: 700;
+    color: #009688;
+}
+.duoi-chu h3{
+    font-family: Montserrat-Light;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+.duoi-chu-1 h2{
+    font-family: Montserrat-Light;
+    font-size: 18px;
+}
+.duoii{
+    margin-bottom: 130px;
+    margin-top: 50px;
+}
+.cot2{
+    background-color: white;
+    height: 130px;
+}
+
+
+
