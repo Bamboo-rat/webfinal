@@ -1,89 +1,75 @@
+/* shop.css */
 
-.shop{
-    background: #dddddd; 
-    border-radius: 50%;
-    height: 100px; 
-    text-align: center; 
-    width: 100px;
-}
-.haircut{
-    width: 500px;
-}
-.anh1{
+.shop-container {
+    padding: 70px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .services-container {
     display: flex;
-}
-.anh1 h1{
-    font-family: Montserrat-Light;
-    font-size: 30px;
-    padding-left: 40px;
-    padding-top: 10px;
-}
-.anh1 h1 p{
-    font-family: Montserrat-Light;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-details {
+    padding: 20px;
+  }
+  
+  .service-details h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-details .service-price {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .service-details p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    color: #555;
+  }
+  /*logo-d*/
+.logo-d{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
 }
-.anh1-chu{
-    font-size: 20px;
-    font-family: Montserrat-Light;
-    color: red;
-    width: 100px;
-    padding-left: 30px;
-    padding-top: 3px;
+.anhlogo{
+  width: 240px;
+  height: 110px;
 }
-.haircut1{
-    display: flex;
+.chu-d{
+  margin-top: 30px;
+  font-family: Montserrat-Light;
 }
-.anh1-chu2{
-    font-size: 20px;
-    font-family: Montserrat-Light;
-    color: red;
-    padding-left: 160px;
-    padding-top: 6px
+.tong{
+  margin-left: 0px;
 }
-.anh1-chu3{
-    font-size: 20px;
-    font-family: Montserrat-Light;
-    color: red;
-    padding-left: 130px;
-    padding-top: 6px
-}
-.anh1-chu4{
-    font-size: 20px;
-    font-family: Montserrat-Light;
-    color: red;
-    padding-left: 93px;
-    padding-top: 6px
-}
-.anh1-chu5{
-    font-size: 20px;
-    font-family: Montserrat-Light;
-    color: red;
-    padding-left: 137px;
-    padding-top: 6px
-}
-.haircut2{
-    display: flex;
-    width: 600px;
-}
-.cot{
-    background-color: white;
-    height: 70px;
-}
-.ctn11{
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-.anh1-chu6{
-    font-size: 20px;
-    font-family: Montserrat-Light;
-    color: red;
-    padding-left: 120px;
-    padding-top: 6px
-}
-.anh1-chu7{
-    font-size: 20px;
-    font-family: Montserrat-Light;
-    color: red;
-    padding-left: 105px;
-    padding-top: 6px;
-}
+
+/*end logo-d*/
