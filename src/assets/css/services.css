@@ -70,3 +70,67 @@ hr {
     bottom: 40%;
     opacity: 1;
 }
+
+
+
+
+.space-medium {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .section-title h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .section-title .small-title {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .service-block {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon img {
+    width: 80px; 
+    height: 80px; 
+    margin-bottom: 20px;
+  }
+  
+  .service-content .title {
+    font-size: 24px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .service-content .title:hover {
+    color: #0056b3;
+  }
+  
+  .service-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .service-content .price {
+    font-size: 20px;
+    color: #28a745;
+    font-weight: bold;
+  }
