@@ -54,3 +54,60 @@
 }
 
 
+
+
+/* styles.css */
+
+/* styles.css */
+
+.testimonial-section {
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0; /* Điều chỉnh khoảng cách padding theo ý muốn */
+  }
+  
+  .testimonial-block {
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền với độ mờ để hình ảnh nền không bị ảnh hưởng quá nhiều */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .testimonial-content {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+  }
+  
+  .testimonial-info {
+    text-align: center;
+  }
+  
+  .testimonial-name {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .testimonial-meta {
+    font-size: 14px;
+    color: #777777;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-block {
+      padding: 20px;
+    }
+  }
+  
+
+
