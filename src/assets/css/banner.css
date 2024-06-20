@@ -1,0 +1,77 @@
+/* .post-block, .post-quote{ position: relative; background-color: #f4f1ec; padding: 30px; border-radius: 10px;  margin-bottom: 30px;}
+ 
+/*-- use for thumbnail --*/
+.post-holder { position: relative; margin-bottom: 30px; }
+/*-- for single post page --*/
+.post-img { position: relative; }
+.post-img img{border-radius: 10px; width: 100%;}
+.post-title { }
+.post-content {padding-top: 40px; padding-right: 40px;}
+.post-header { } */
+
+
+/* styles.css */
+
+.content {
+    padding: 40px 0;
+  }
+  
+  .post-block {
+    position: relative;
+    background-color: #f4f1ec;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .post-img img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .post-content {
+    padding-top: 20px;
+  }
+  
+  .post-content h2 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .post-content h2 a:hover {
+    color: #007bff;
+  }
+  
+  .meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .meta a {
+    color: #777;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .meta a:hover {
+    color: #007bff;
+  }
+  
+  .btnp {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btnp:hover {
+    background-color: #0056b3;
+  }
+
+  
+  

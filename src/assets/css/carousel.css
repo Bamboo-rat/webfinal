@@ -1,0 +1,16 @@
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    margin-top:40px;
+  }
+  
+   .carousel-container img {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    margin: 0 60px; 
+  }
+  
+ 
